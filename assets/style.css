@@ -1,0 +1,290 @@
+/* <!-- HEADER --> */
+
+.header {
+    display: flex;
+    height: 96px;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--color-bg-logo);
+    
+}
+
+.header p{
+    color:var(--color-title);
+    font-size: var(--font-logo);
+    font-family: var(--font-all);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    gap: 70px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(5, 204, 65, 0.1);
+}
+
+
+ /* <!-- MAIN-PRODUCTS --> */
+section{
+   
+    width: 70%;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 5px;
+    margin-bottom: 15px;
+}
+section h1{
+    
+    font-size: 3rem;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.title-prodct{
+    position: absolute;
+    right: 45%;
+    top: 20px;
+    color: #ffff;
+
+}
+
+
+
+.products-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.products-container{
+    margin: 4px 0px 4px 0px;
+    border: 3px solid #5616b6;
+    max-width:  255px;
+    max-height: 436px;
+    padding: 30px;
+    top: 90px;
+    margin-right: 900px;
+    background-color: #5616b6;
+    
+}
+
+.img-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    text-align: center;
+    max-width: 950px;
+    min-height: 590px;
+    background-image: var(--background-general);
+    border-radius: 5px;
+    padding: 10px;
+    right: 18px;
+}
+
+.img-container{
+    transform: scale(0.5);
+    align-items: center;
+    transform-origin:left;
+    margin-right: 40%;
+    top: -45%;  
+    
+
+}
+
+.card-container--info{
+    background-color:#5616b6;
+    margin-top: -19%;
+    margin-right: 76%;
+    padding: 50px;
+    font-size: 24px;
+    align-items:center;
+    right: 60px;
+
+    
+    
+}
+
+.card-container--value{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:last baseline;
+    
+    
+
+}
+
+.img{
+    height: 150px;
+    width: 93%;
+    max-width: 200px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 5px 5px 0px 5px;
+    box-sizing: border-box;
+
+}
+
+.card-container--value{
+    position:relative;
+    top: 30px;
+    font-size: 22px;
+    left: 3px;
+}
+
+.delete-button{
+    position:absolute;
+    font-size: 30px;
+    top: 10px;
+    background-color: #5616b6;
+    border: none;
+    color: #ffff;
+}
+
+
+
+.card{
+    position:absolute;
+    width: 450px;
+    height: 350px;
+    padding: 20px 35px;
+    align-items:start;
+    justify-content: space-between;
+    border-radius: 18px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--color-bg-card);   
+}
+
+.form-product{
+    width: 500px;
+    height: 300px;
+    margin-top: 70px;
+    padding: 55px;
+    gap: 35px;
+}
+
+h2{
+    position: relative;
+    top: 110px;
+    font-size: 25px;
+
+}
+
+.button-container{
+    position:relative;
+    padding: -10px;
+    height: 200px;
+    font-size: 20px;
+    grid-area: 100%;
+    margin: 2px;
+    margin-bottom: 60%;
+
+
+}
+       
+
+
+.products-container.card.preco, p{
+    width: 100%;
+    color: var(--color-p-card);
+    font-size: 1.2em;
+    margin-top: 15%;
+    margin-right: 50%;
+
+}
+
+.products-container .preco button {
+    position: relative;
+    display: flex;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--color-p-card);
+    margin-top: 12px;
+    cursor: pointer;
+    color: #202020;
+    font-weight: 700;
+    box-shadow: rgba(37, 37, 37, 0.329) 0px 7px 29px 0px;
+}
+.card img{
+    width: 100%;
+    height: 55%;
+    border: 1px solid #5616b6;
+    border-radius: 16px;
+    object-fit: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.938) 0px 30px 60px -30px;
+}
+
+
+/* <!-- FORM-ADD --> */
+main form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 4% 3%;
+    text-align: center;
+    border: 1px solid var(--color-bg-card);
+    border-radius: 16px;
+    box-shadow: rgba(50, 50, 93, 0.13) 0px 50px 100px -20px, rgba(0, 0, 0, 0.082) 0px 30px 60px -30px;
+
+}
+form h2{
+    font-size: var(--font-form-title);
+    font-family: "Press Start 2P", system-ui;
+
+}
+ form input{
+    padding: 5px 8px;
+    border-radius: 12px;
+
+ }
+ form input:focus{
+    color:var(--color-p-card);
+    background-color: var(--color-bg-card);
+ }
+
+ main form button{
+    padding: 8px 12px;
+    border-radius: 12px;
+    background-color: var(--color-bg-card);
+    color: var(--color-p-card);
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+
+/* <!-- FOOTER --> */
+footer{
+    display: flex;
+    width: 100%vw;
+    height:112px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--color-bg-card);
+}
+
+footer, h3 span {
+    color: var(--color-p-card);
+    font-size: var(--font-logo);
+    line-height: 1px;
+}
